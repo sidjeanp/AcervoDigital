@@ -1,0 +1,35 @@
+{
+  "name": "sidjeanp/AcervoDigital",
+  "type": "project",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sidnei Carlos",
+      "email": "sidjeanp@gmail.com"
+    }
+  ],
+  "require": {
+    "silex/silex": "^2.1",
+    "squizlabs/php_codesniffer": "*",
+    "phing/phing": "^2.16"
+  },
+  "require-dev": {
+    "texthtml/whoops-silex": "^1.0",
+    "phpunit/phpunit": "^5.7",
+    "friendsofphp/php-cs-fixer": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "AcervoDigital\\": "src/AcervoDigital"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AcervoDigital\\": [
+        "src/AcervoDigital",
+        "tests/unit/AcervoDigital"
+      ]
+    }
+  }
+}
